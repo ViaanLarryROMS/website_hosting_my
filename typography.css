@@ -1,0 +1,9 @@
+.hero-name { font-size: 6rem; letter-spacing: -5px; font-family: 'Inter', sans-serif; font-weight: 700; }
+
+.hero-meta { font-family: 'Fira Code', monospace; color: var(--text-dim); letter-spacing: 5px; font-size: 0.9rem; margin-top: 10px; }
+
+.tag { font-family: 'Fira Code', monospace; color: var(--accent); font-size: 0.7rem; letter-spacing: 4px; display: block; margin-bottom: 20px; }
+
+h2 { font-size: 2.5rem; margin-bottom: 2rem; font-family: 'Inter', sans-serif; }
+
+.pro-text { font-size: 1.1rem; color: var(--text-dim); line-height: 2; }
