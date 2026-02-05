@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Viaan Thakur | System Architect</title>
+    <title>Viaan Thakur | The Lab</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="animations.css">
     <link rel="stylesheet" href="content.css">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
@@ -13,78 +14,89 @@
 
     <nav>
         <div class="nav-content">
-            <a href="#hero" class="nav-link">System_Start</a>
-            <a href="#about" class="nav-link">Identity</a>
-            <a href="#learning" class="nav-link">Deep_Learn</a>
-            <a href="#roms" class="nav-link">Port_Projects</a>
-            <a href="#hardware" class="nav-link">Hardware_Lab</a>
+            <a href="#hero" class="nav-link">00_BOOT</a>
+            <a href="#about" class="nav-link">01_IDENT</a>
+            <a href="#learning" class="nav-link">02_STAGE</a>
+            <a href="#roms" class="nav-link">03_PROJECTS</a>
+            <a href="#hardware" class="nav-link">04_LAB</a>
+            <a href="#contact" class="nav-link">05_COMM</a>
         </div>
     </nav>
 
     <header id="hero">
+        <div class="hero-backdrop"></div>
         <div class="profile-container">
-            <img src="image.png" alt="Viaan Thakur">
+            <img src="image.png" alt="Viaan Thakur Silhouette">
         </div>
         <h1 class="hero-title"><span class="gradient-text">VIAAN THAKUR</span></h1>
-        <p class="hero-tagline">Tech Enthusiast // Android Modder</p>
+        <p class="hero-tagline">8TH GRADE LEARNER // SYSTEM ARCHITECT</p>
         
         <div class="big-download-box">
-            <p class="mono-label">ROM REPOSITORY ACCESS</p>
-            <a href="https://drive.google.com/drive/u/0/folders/1pdqYankhwyaxu8Gs-tObbpPcOxZadaf9" class="main-dl-btn">ACCESS DRIVE</a>
+            <p class="mono-label">CENTRAL REPOSITORY ACCESS</p>
+            <a href="https://drive.google.com/drive/u/0/folders/1pdqYankhwyaxu8Gs-tObbpPcOxZadaf9" class="main-dl-btn">DOWNLOAD PROJECTS</a>
         </div>
     </header>
 
     <section id="about" data-reveal>
-        <h2>01. Current Identity</h2>
+        <div class="section-tag">/IDENTITY_LOG</div>
+        <h2>01. The Mission</h2>
         <div class="glass-card">
-            <p class="small-body">
-                I am an 8th-standard student currently focusing on system-level optimization for the <span class="highlight">OnePlus Nord CE 3 Lite</span> (larry). My work spans from device unbricking to the deployment of source-built custom Android environments.
+            <p class="body-text">
+                Currently navigating the **8th standard**, I spend my time outside the classroom decoding the architecture of mobile operating systems. My work is a continuous experiment in software freedom and hardware optimization, specifically focused on the **OnePlus Nord CE 3 Lite** (larry).
             </p>
         </div>
     </section>
 
     <section id="learning" data-reveal>
-        <h2>02. Deep Learning Track</h2>
+        <div class="section-tag">/LEARNING_STAGE</div>
+        <h2>02. Technical Evolution</h2>
         <div class="grid">
             <div class="card">
                 <h3 class="highlight">Partition Logic</h3>
-                <p class="small-body">Understanding dynamic partitions and virtual A/B systems to ensure clean ROM porting.</p>
+                <p class="small-body">Deep-diving into dynamic partitions and virtual A/B systems to ensure clean ROM deployment on the larry platform.</p>
             </div>
             <div class="card">
-                <h3 class="highlight">Fastboot Protocols</h3>
-                <p class="small-body">Deep-diving into low-level flashing commands and partition mapping for recovery.</p>
+                <h3 class="highlight">System Diagnostics</h3>
+                <p class="small-body">Mastering hardware-level unbricking and diagnosing logic-level system failures to restore device integrity.</p>
             </div>
             <div class="card">
                 <h3 class="highlight">AOSP Manifests</h3>
-                <p class="small-body">Exploring local manifests to pull source code for various Android branches.</p>
+                <p class="small-body">Exploring local manifests to pull source code for various Android branches, preparing for advanced porting.</p>
             </div>
         </div>
     </section>
 
     <section id="roms" data-reveal>
+        <div class="section-tag">/PORT_PROJECTS</div>
         <h2>03. Source Port Projects</h2>
         <div class="grid">
-            <div class="card"><h3>AxionAOSP</h3><p class="small-body">Source port for <span class="highlight">larry</span>.</p></div>
-            <div class="card"><h3>EvolutionX</h3><p class="small-body">Feature-rich source builds.</p></div>
-            <div class="card"><h3>LunarisAOSP</h3><p class="small-body">Clean source optimization.</p></div>
-            <div class="card"><h3>Project-MistOS</h3><p class="small-body">Custom UI source ports.</p></div>
+            <div class="card"><h3>AxionAOSP</h3><p class="small-body">Minimal and stable source-based port optimized for performance on larry.</p></div>
+            <div class="card"><h3>EvolutionX</h3><p class="small-body">Porting feature-rich environments directly from source to the Nord series.</p></div>
+            <div class="card"><h3>LunarisAOSP</h3><p class="small-body">High-performance clean source optimization for hardware interaction.</p></div>
+            <div class="card"><h3>Project-MistOS</h3><p class="small-body">Developing source-based ports to bring unique UI elements to the Nord CE 3 Lite.</p></div>
         </div>
     </section>
 
     <section id="hardware" data-reveal>
-        <h2>04. Hardware Lab</h2>
+        <div class="section-tag">/HARDWARE_LAB</div>
+        <h2>04. Hardware Environment</h2>
         <div class="glass-card">
-            <p class="small-body">My lab environment is dedicated to physical diagnostics, hardware-level unbricking, and exploring the silicon limitations of the <span class="highlight">Snapdragon</span> architecture.</p>
+            <p class="body-text">
+                My lab is dedicated to the study of the **Snapdragon** architecture and its interaction with the OS. From physical diagnostics to logic-level repair, I focus on the "how" and "why" of device behavior under extreme software modifications.
+            </p>
         </div>
     </section>
 
-    <footer>
-        <div class="link-group">
-            <a href="https://github.com/ViaanLarryROMS" class="gh-btn">ViaanLarryROMS</a>
-            <a href="https://github.com/VIAAN96" class="gh-btn">VIAAN96</a>
+    <section id="contact" data-reveal>
+        <div class="glass-card contact-center">
+            <h2>Get In Touch</h2>
+            <div class="link-group">
+                <a href="https://github.com/ViaanLarryROMS" class="gh-btn">ViaanLarryROMS</a>
+                <a href="https://github.com/VIAAN96" class="gh-btn">VIAAN96</a>
+            </div>
+            <p class="footer-name">VIAAN THAKUR</p>
         </div>
-        <p class="footer-name">VIAAN THAKUR</p>
-    </footer>
+    </section>
 
     <script src="script.js"></script>
 </body>
