@@ -1,0 +1,36 @@
+section { padding: 150px 30px; max-width: 1100px; margin: 0 auto; }
+
+.glass-card {
+    background: var(--card-bg);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 24px;
+    padding: 4rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.card {
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.01);
+    border: 1px solid rgba(255, 255, 255, 0.03);
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+.card:hover { transform: translateY(-10px); border-color: var(--accent-color); }
+
+.main-dl-btn {
+    display: inline-block;
+    padding: 15px 40px;
+    background: var(--accent-color);
+    color: #000;
+    text-decoration: none;
+    font-family: var(--font-mono);
+    border-radius: 8px;
+    font-weight: bold;
+}
