@@ -3,101 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Viaan Thakur | The Lab</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Viaan Thakur | System Architect</title>
+    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="animations.css">
-    <link rel="stylesheet" href="content.css">
+    <link rel="stylesheet" href="effects.css">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="typography.css">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <nav>
-        <div class="nav-content">
-            <a href="#hero" class="nav-link">00_BOOT</a>
-            <a href="#about" class="nav-link">01_IDENT</a>
-            <a href="#learning" class="nav-link">02_STAGE</a>
-            <a href="#roms" class="nav-link">03_PROJECTS</a>
-            <a href="#hardware" class="nav-link">04_LAB</a>
-            <a href="#contact" class="nav-link">05_COMM</a>
+        <div class="nav-inner">
+            <div class="nav-logo">VT_ARCH_v2.6</div>
+            <div class="nav-links">
+                <a href="#hero">HOME</a>
+                <a href="#about">IDENTITY</a>
+                <a href="#learning">LEARNING</a>
+                <a href="#roms">PROJECTS</a>
+                <a href="#hardware">HARDWARE</a>
+            </div>
         </div>
     </nav>
 
     <header id="hero">
-        <div class="hero-backdrop"></div>
-        <div class="profile-container">
+        <div class="scanline"></div>
+        <div class="profile-frame">
             <img src="image.png" alt="Viaan Thakur Silhouette">
         </div>
-        <h1 class="hero-title"><span class="gradient-text">VIAAN THAKUR</span></h1>
-        <p class="hero-tagline">8TH GRADE LEARNER // SYSTEM ARCHITECT</p>
+        <h1 class="hero-name"><span class="glow-text">VIAAN THAKUR</span></h1>
+        <p class="hero-meta">8TH GRADE LEARNER // SYSTEM ARCHITECT // ANDROID MODDER</p>
         
-        <div class="big-download-box">
-            <p class="mono-label">CENTRAL REPOSITORY ACCESS</p>
-            <a href="https://drive.google.com/drive/u/0/folders/1pdqYankhwyaxu8Gs-tObbpPcOxZadaf9" class="main-dl-btn">DOWNLOAD PROJECTS</a>
+        <div class="action-container">
+            <a href="https://drive.google.com/drive/u/0/folders/1pdqYankhwyaxu8Gs-tObbpPcOxZadaf9" class="elite-btn">
+                <span class="btn-content">ACCESS PORT PROJECTS</span>
+            </a>
         </div>
     </header>
 
     <section id="about" data-reveal>
-        <div class="section-tag">/IDENTITY_LOG</div>
-        <h2>01. The Mission</h2>
-        <div class="glass-card">
-            <p class="body-text">
-                Currently navigating the **8th standard**, I spend my time outside the classroom decoding the architecture of mobile operating systems. My work is a continuous experiment in software freedom and hardware optimization, specifically focused on the **OnePlus Nord CE 3 Lite** (larry).
-            </p>
+        <div class="card-glass">
+            <span class="tag">IDENT_01</span>
+            <h2>Current Identity</h2>
+            <p class="pro-text">Currently navigating the **8th standard**, I have dedicated my time to mastering the architecture of mobile systems. My work bridges the gap between hardware potential and software freedom, specifically on the **OnePlus Nord CE 3 Lite** (larry).</p>
         </div>
     </section>
 
     <section id="learning" data-reveal>
-        <div class="section-tag">/LEARNING_STAGE</div>
-        <h2>02. Technical Evolution</h2>
-        <div class="grid">
-            <div class="card">
-                <h3 class="highlight">Partition Logic</h3>
-                <p class="small-body">Deep-diving into dynamic partitions and virtual A/B systems to ensure clean ROM deployment on the larry platform.</p>
+        <span class="tag">STAGE_02</span>
+        <h2>Deep Learning Track</h2>
+        <div class="mega-grid">
+            <div class="glass-module">
+                <h3>Partition Logic</h3>
+                <p>Understanding dynamic partitions and virtual A/B systems to ensure clean ROM deployment on the larry platform.</p>
             </div>
-            <div class="card">
-                <h3 class="highlight">System Diagnostics</h3>
-                <p class="small-body">Mastering hardware-level unbricking and diagnosing logic-level system failures to restore device integrity.</p>
+            <div class="glass-module">
+                <h3>Fastboot Protocols</h3>
+                <p>Mastering low-level flashing commands and partition mapping for advanced device recovery.</p>
             </div>
-            <div class="card">
-                <h3 class="highlight">AOSP Manifests</h3>
-                <p class="small-body">Exploring local manifests to pull source code for various Android branches, preparing for advanced porting.</p>
+            <div class="glass-module">
+                <h3>AOSP Architecture</h3>
+                <p>Exploring the complexities of AOSP source code and local manifest configurations for source porting.</p>
             </div>
         </div>
     </section>
 
     <section id="roms" data-reveal>
-        <div class="section-tag">/PORT_PROJECTS</div>
-        <h2>03. Source Port Projects</h2>
-        <div class="grid">
-            <div class="card"><h3>AxionAOSP</h3><p class="small-body">Minimal and stable source-based port optimized for performance on larry.</p></div>
-            <div class="card"><h3>EvolutionX</h3><p class="small-body">Porting feature-rich environments directly from source to the Nord series.</p></div>
-            <div class="card"><h3>LunarisAOSP</h3><p class="small-body">High-performance clean source optimization for hardware interaction.</p></div>
-            <div class="card"><h3>Project-MistOS</h3><p class="small-body">Developing source-based ports to bring unique UI elements to the Nord CE 3 Lite.</p></div>
+        <span class="tag">PORT_03</span>
+        <h2>Source Port Projects</h2>
+        <div class="mega-grid">
+            <div class="glass-module"><h3>AxionAOSP</h3><p>Minimal and stable source-based port for larry.</p></div>
+            <div class="glass-module"><h3>EvolutionX</h3><p>Feature-rich source-built ROM ported to the Nord series.</p></div>
+            <div class="glass-module"><h3>LunarisAOSP</h3><p>High-performance clean source optimization.</p></div>
+            <div class="glass-module"><h3>Project-MistOS</h3><p>Unique UI source ports developed for the Nord CE 3 Lite.</p></div>
         </div>
     </section>
 
     <section id="hardware" data-reveal>
-        <div class="section-tag">/HARDWARE_LAB</div>
-        <h2>04. Hardware Environment</h2>
-        <div class="glass-card">
-            <p class="body-text">
-                My lab is dedicated to the study of the **Snapdragon** architecture and its interaction with the OS. From physical diagnostics to logic-level repair, I focus on the "how" and "why" of device behavior under extreme software modifications.
-            </p>
+        <div class="card-glass">
+            <span class="tag">LAB_04</span>
+            <h2>Hardware Environment</h2>
+            <p class="pro-text">My lab is dedicated to the study of the **Snapdragon** architecture and its interaction with the OS. I focus on the "how" and "why" of device behavior under extreme software modifications.</p>
         </div>
     </section>
 
-    <section id="contact" data-reveal>
-        <div class="glass-card contact-center">
-            <h2>Get In Touch</h2>
-            <div class="link-group">
-                <a href="https://github.com/ViaanLarryROMS" class="gh-btn">ViaanLarryROMS</a>
-                <a href="https://github.com/VIAAN96" class="gh-btn">VIAAN96</a>
-            </div>
-            <p class="footer-name">VIAAN THAKUR</p>
+    <footer>
+        <div class="footer-links">
+            <a href="https://github.com/ViaanLarryROMS">/ViaanLarryROMS</a>
+            <a href="https://github.com/VIAAN96">/VIAAN96</a>
         </div>
-    </section>
+        <p class="legal">VIAAN THAKUR // NO_TAGLINE_MODE</p>
+    </footer>
 
-    <script src="script.js"></script>
+    <script src="engine.js"></script>
 </body>
 </html>
