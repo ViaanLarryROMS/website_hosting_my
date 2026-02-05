@@ -1,0 +1,20 @@
+[data-reveal] { 
+    opacity: 0; 
+    transform: translateY(40px); 
+    transition: all 1s cubic-bezier(0.16, 1, 0.3, 1); 
+}
+[data-reveal].visible { 
+    opacity: 1; 
+    transform: translateY(0); 
+}
+
+.gradient-text {
+    background: linear-gradient(135deg, #00f2ff, #007adf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.highlight {
+    color: var(--accent-color);
+    text-shadow: 0 0 10px var(--accent-glow);
+}
