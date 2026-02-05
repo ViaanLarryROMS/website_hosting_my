@@ -78,9 +78,21 @@
             -webkit-text-fill-color: transparent;
         }
 
+        /* Status Badge Addition */
+        .badge {
+            font-size: 0.7rem;
+            padding: 2px 8px;
+            border-radius: 4px;
+            border: 1px solid var(--accent-color);
+            font-family: var(--font-mono);
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            display: inline-block;
+        }
+
         /* --- Hero Section --- */
         #hero {
-            height: 110vh; /* Increased length */
+            height: 110vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -198,6 +210,19 @@
             box-shadow: 0 30px 60px -20px var(--accent-glow);
         }
 
+        /* --- Terminal Console Section Addition --- */
+        .terminal {
+            background: #000;
+            border: 1px solid #333;
+            border-radius: 8px;
+            padding: 20px;
+            font-family: var(--font-mono);
+            font-size: 0.85rem;
+            margin-top: 30px;
+            color: #00ff00;
+            text-align: left;
+        }
+
         /* --- Footer --- */
         .link-group {
             display: flex;
@@ -259,6 +284,12 @@
             <p style="font-size: 1.4rem; color: var(--text-secondary); max-width: 900px;">
                 I am an 8th-standard student currently focusing on system-level optimization for the <span class="highlight">OnePlus Nord CE 3 Lite</span> (larry). My work spans from device unbricking to the deployment of source-built custom Android environments.
             </p>
+            <div class="terminal">
+                > Initializing system...<br>
+                > Checking bootloader status: UNLOCKED<br>
+                > Hardware: Snapdragon 695 5G detected<br>
+                > Status: Ready for flashing...
+            </div>
         </div>
     </section>
 
@@ -284,18 +315,22 @@
         <h2>03. Source Port Projects</h2>
         <div class="grid">
             <div class="card">
+                <span class="badge">Stable</span>
                 <h3>AxionAOSP</h3>
                 <p>Ported directly from source to <span class="highlight">larry</span>, delivering a high-performance, minimal footprint system.</p>
             </div>
             <div class="card">
+                <span class="badge">Stable</span>
                 <h3>EvolutionX</h3>
                 <p>Full source-built porting that integrates extensive customization with core system stability for the Nord CE 3 Lite.</p>
             </div>
             <div class="card">
+                <span class="badge">Beta</span>
                 <h3>LunarisAOSP</h3>
                 <p>Optimizing software interaction with the <span class="highlight">larry</span> hardware through clean AOSP source porting.</p>
             </div>
             <div class="card">
+                <span class="badge">Testing</span>
                 <h3>Project-MistOS</h3>
                 <p>Bringing the unique identity of <span class="highlight">MistOS</span> to the Nord CE 3 Lite via source-based porting.</p>
             </div>
